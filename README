@@ -1,0 +1,25 @@
+Welcome to Scream Grid
+Version 1.0
+March 8, 2011
+Created by Mauro Morales
+License: MIT
+
+What is Scream Grid?
+
+Scream Grid is a data grid for Business Intelligence that you can adapt easily to any website.
+It works very similar to an Excel dynamic table or other complex tools like Oracle Discoverer.
+This project is still in a very alpha stage but all code is Open Source so feel free to play with it and to give us a hand!
+
+Installation Guide
+
+1. Download the source code.
+2. Modify the screamGrid.js to satisfy your needs, either add the information statically or generate the array dynamically (updates on this soon)
+3. Add an html div tag with id=”put-grid-here”. screamGrid with jQuery. $(‘#put-grid-here’).opengrid();
+4. And there you go screamGrid is ready to be used.
+
+You can see a Demo at http://scream-webstudios.com/scream-grid/
+
+Contact
+http://mauromorales.com
+http://scream-webstudios.com
+contact@mauromorales.com

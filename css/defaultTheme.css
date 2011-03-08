@@ -1,0 +1,43 @@
+/* 
+    Document   : defaultTheme
+    Created on : Oct 9, 2010, 11:43:01 PM
+    Author     : mauromorales
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+    #vertical-container, #horizontal-container, #pivotal-container, #values-container {
+        list-style-type:none;
+        margin:0 auto;
+    }
+
+    #vertical-container li, #horizontal-container li, #pivotal-container li, #values-container li{
+        background: repeat-x scroll 50% 50% #F5F8F9;
+        border:1px solid #C5DBEC;
+        height:13px;
+        margin:3px 3px 3px -37px;
+        padding:0.4em 0.4em 0.4em 1.5em;
+    }
+
+    #vertical-container li span, #horizontal-container li span, #pivotal-container li span, #values-container li span{
+        float: right;
+    }
+
+    #vertical-container li, #horizontal-container li {
+        background: repeat-x scroll 50% 50% #DFEFFC;
+        border:1px solid #C5DBEC;
+    }
+    #data-grid {
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+
+    }
+    #data-grid td{
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+    }
